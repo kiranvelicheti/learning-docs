@@ -13,7 +13,7 @@ If your data is very structured and ACID compliance is a must, SQL is a great ch
 If data needs to be querried more frequently.
 
 # When to choose NOSQL:
-When large amounts of unstructred data needs to be stored 
-When you do not limit the  number of data types to be stored 
-To speed up the development
-Make use of horizontal scalling and cloud storage
+When large amounts of unstructred data needs to be stored.
+When you do not limit the  number of data types to be stored.
+To speed up the development.
+Make use of horizontal scalling and cloud storage.
