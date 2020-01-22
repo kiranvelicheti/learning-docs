@@ -17,3 +17,8 @@ It resides on JDBC and is data base egnostic as queries are implemented in HQL w
 * When you do not limit the  number of data types to be stored.
 * To speed up the development.
 * Make use of horizontal scalling and cloud storage.
+
+# Entity States
+ * Transient
+ * Persisted
+ * Detached
