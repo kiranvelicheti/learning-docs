@@ -1,0 +1,30 @@
+Functional Programming basics
+
+Separate: model, Functionality
+
+* Change the perspective of development using object oriented programming.
+* Data and implementation goes separate.
+* Original meaning of micro services are not rest endpoints. 
+* They are classes which provide some service by taking some input
+* Service is nothing but an implementation or functionality.
+* Class should be a service and data should be a model.
+* Try to Use primitives more.
+
+Separate: Dependencies & Decision making
+
+* A function or service should either have dependency or decision making.
+* This helps to cover all the branches in testing and help to have more pure functions.
+
+Pure functions
+* A function which doesn't have any dependency and works with only the values that are provided to it.
+
+Not about lambdas
+* Functional programming is not about lambdas. 
+* Lambdas are one of several ways to achieve pure functions.
+	
+
+Boundaries:
+* Why do we use multiple parameters (data) for a function?
+* Implementation differs for each parameter (data).
+* Data is the boundary where to extract a part of code into new function
+* When a data is modified or data is created 
