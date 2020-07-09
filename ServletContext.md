@@ -3,4 +3,6 @@
 # Appplication context
   Spring based java applications have application context, it holds context of all spring beans
 # WebApplicationContext 
- Each Diaptch servlet is associated with a single webapplicationcontext and have beans which are web aware
+  Each Diaptch servlet is associated with a single webapplicationcontext and have beans which are web aware
+ # DispatcherServlet 
+  handles an incoming HttpRequest, delegates the request, and processes that request according to the configured HandlerAdapter interfaces 
